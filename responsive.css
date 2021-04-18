@@ -1,4 +1,4 @@
-@media screen and (max-width: 1020px ) {
+@media (max-width: 1020px ) {
   .articles-container {
     width: 95%;
     flex-wrap: wrap;
@@ -29,7 +29,25 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
+  .logo-container {
+    width: 80%;
+  }
+
+  .logo-container svg {
+    width: 40%;
+
+  }
+
+  .logo-container p {
+    width: 40%;
+    font-size: 3vw;
+  }
+
+  .stories-container {
+    grid-template-rows: 250px 250px 250px 250px;
+  }
+
   .popular-articles-container {
     width: 100%;
     min-width: none;
